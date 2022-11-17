@@ -39,7 +39,7 @@ export default function App() {
   return (
     <>
       <div style={{ textAlign: "center" }}>
-        <h2>Good Movie Collection </h2>
+        <h2>Good Movie Collection 🎥🍿 </h2>
         <p>
           Checkout my favorite Movie Collection. Select a film industries to get
           started
