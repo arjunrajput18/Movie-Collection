@@ -1,0 +1,27 @@
+* {
+  background-color: #efefef;
+  text-align: "center";
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.button-list {
+  font-style: sans-serif;
+  margin: 0.4rem;
+  font-size: medium;
+  padding: 0.7rem 1rem;
+  border-radius: 1rem;
+  background-color: violet;
+  color: black;
+  cursor: pointer;
+}
+
+.list-content {
+  list-style: none;
+  margin: 0.3rem 0.6rem;
+  padding: 0.3rem 0.6rem;
+  font-size: large;
+}
