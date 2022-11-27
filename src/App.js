@@ -11,21 +11,21 @@ const movieDB = {
     { Name: "Memento (2000)", rating: "8.3/10" }
   ],
   Bollywood: [
-    { Name: "Dangal ", rating: "9.2/10" },
-    { Name: "Ek tha Tiger", rating: "9.1/10" },
-    { Name: "welcome", rating: "8.8/10" },
-    { Name: "golmaal", rating: "8.6/10" },
-    { Name: "Sanju", rating: "8.4/10" },
-    { Name: "Bajrangi Bhaijaan", rating: "8.3/10" }
+    { Name: "Dangal (2016)", rating: "9.2/10" },
+    { Name: "Ek tha Tiger (2012)", rating: "9.1/10" },
+    { Name: "welcome (2007)", rating: "8.8/10" },
+    { Name: "golmaal (2006)", rating: "8.6/10" },
+    { Name: "Sanju (2019)", rating: "8.4/10" },
+    { Name: "Bajrangi Bhaijaan (2018)", rating: "8.3/10" }
   ],
   Tollywood: [
     { Name: "Kantara (2022)", rating: "9.4/10" },
-    { Name: "Baahubali: The Beginning", rating: "9.2/10" },
-    { Name: "Ala Vaikunthapurramuloo", rating: "9.0/10" },
-    { Name: "Pushpa: The Rise", rating: "8.8/10" },
-    { Name: "Sarrainodu", rating: "8.5/10" },
-    { Name: "KGF", rating: "8.3/10" },
-    { Name: "DJ", rating: "8.1/10" }
+    { Name: "Baahubali: The Beginning (2016)", rating: "9.2/10" },
+    { Name: "Ala Vaikunthapurramuloo (2018)", rating: "9.0/10" },
+    { Name: "Pushpa: The Rise (2021)", rating: "8.8/10" },
+    { Name: "Sarrainodu (2009)", rating: "8.5/10" },
+    { Name: "KGF (2019)", rating: "8.3/10" },
+    { Name: "DJ (2018)", rating: "8.1/10" }
   ]
 };
 var listMovie = Object.keys(movieDB);
