@@ -1,10 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Klee+One&display=swap");
+
 * {
-  background-color: #efefef;
+  background-color: #133453;
   text-align: "center";
+  /* color: #ffa8b6; */
+  color: white;
 }
 
 .App {
-  font-family: sans-serif;
+  font-family: "Klee One", cursive;
   text-align: center;
 }
 
@@ -14,14 +18,23 @@
   font-size: medium;
   padding: 0.7rem 1rem;
   border-radius: 1rem;
-  background-color: violet;
-  color: black;
+  background-color: #1a3e5f;
+  color: white;
   cursor: pointer;
 }
 
 .list-content {
   list-style: none;
-  margin: 0.3rem 0.6rem;
-  padding: 0.3rem 0.6rem;
+  margin: 2rem 0.6rem;
+  padding: 0.3rem 0.3rem;
   font-size: large;
+  border-radius: 0.5rem;
+  border: 1px solid cadetblue;
+  display: block;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+  width: 30%;
 }

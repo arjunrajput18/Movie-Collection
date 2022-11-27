@@ -39,7 +39,7 @@ export default function App() {
   return (
     <>
       <div style={{ textAlign: "center" }}>
-        <h2>Good Movie Collection 🎥🍿 </h2>
+        <h2>Good Movie Collection🎥🍿</h2>
         <p>
           Checkout my favorite Movie Collection. Select a film industries to get
           started
@@ -61,12 +61,12 @@ export default function App() {
           <ul>
             {movieDB[listClicked].map((value, index) => (
               <li key={index} className="list-content">
-                <div>
-                  {" "}
-                  {index + 1}) {value.Name}{" "}
-                </div>
+                <div> {value.Name} </div>
 
-                <div style={{ margin: "0.6rem" }}> {value.rating} </div>
+                <div style={{ margin: "0.3rem", fontSize: "15px" }}>
+                  {" "}
+                  IMDB rating: {value.rating}{" "}
+                </div>
               </li>
             ))}
           </ul>
